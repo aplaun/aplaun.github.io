@@ -1,0 +1,438 @@
+body {
+    font-family: Roboto;
+    margin: 0px;
+}
+
+.container {
+    padding: 48px;
+    padding: 12px;
+}
+
+.main_wrapper {
+    max-width: 640px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.logo_info {
+    width: 70%;
+    margin-left: 17px;
+}
+
+.logo_info h3 {
+    font-size: 16px;
+    color: #252525;
+    font-weight: bold;
+    margin-top: 4px;
+    margin-bottom: 3px;
+}
+
+.header {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 22px;
+}
+
+.logo_description {
+    font-size: 12px;
+    color: #635c65;
+    line-height: 16px;
+    font-weight: normal;
+}
+
+.download {
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 4px;
+}
+
+.download img {
+    width: 100%;
+}
+
+
+.dream_team img {
+    width: 100%;
+}
+
+.app_numbers {
+    margin-top: 68px;
+}
+
+.playing_steps {
+    padding: 47px;
+    padding-bottom: 129px;
+}
+
+.download_app_button img,
+.app_numbers img,
+.playing_steps img {
+    width: 100%;
+}
+
+.playing_steps {
+    border: 1px solid #dedede;
+    border-radius: 2px;
+    padding: 10px;
+}
+
+.playing_steps {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.step {
+    font-size: 24px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #8f8f8f;
+    position: relative;
+}
+
+.step span {
+    font-weight: 500;
+    display: block;
+}
+
+.step:after {
+    content: "";
+    width: 8px;
+    height: 39px;
+    background: url(https://d13ir53smqqeyp.cloudfront.net/d11-static-pages/images/affiliate_seperator.png);
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    top: -5px;
+    background-repeat: no-repeat;
+    bottom: 0;
+    margin: auto;
+}
+
+.step:last-child:after {
+    display: none
+}
+
+.rating_download_box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 15px;
+}
+
+.rating_box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.rating_title {
+    font-size: 24px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #8f8f8f;
+}
+
+.rating_number {
+    font-size: 60px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #8f8f8f;
+}
+
+.rating_image {
+    width: 88px;
+}
+
+.rating_graph_inner {
+    width: 190px;
+    margin-top: 41px;
+}
+
+.download_count {
+    font-size: 30px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #8f8f8f;
+}
+
+.download_box span {
+    font-size: 30px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #8f8f8f;
+}
+
+.download_box {
+    text-align: right;
+    padding-top: 30px;
+}
+
+.user_box {
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+}
+
+.user_img {
+    width: 60px;
+}
+
+.review_box h3 {
+    font-size: 24px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #8f8f8f;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.review_box ul {
+    padding-left: 0px;
+    list-style: none;
+    margin: 0px;
+}
+
+.user_name {
+    font-size: 20px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.3;
+    letter-spacing: normal;
+    color: #8f8f8f;
+}
+
+.user_review {
+    font-size: 20px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.3;
+    letter-spacing: normal;
+    color: #8f8f8f;
+}
+
+.review_box {
+    margin-top: 24px;
+}
+
+.review_box ul li {
+    margin-bottom: 30px;
+}
+
+.amp-carousel-button-prev,
+.amp-carousel-button-next {
+    display: none;
+}
+
+.download_count {
+    font-size: 48px;
+}
+
+.download_app_button {
+    margin-bottom: 31px;
+}
+
+@media (max-width:600px) {
+    .container {
+        padding: 20px;
+    }
+
+    .app_numbers {
+        margin-top: 30px;
+    }
+
+    .playing_steps {
+        padding: 20px;
+    }
+}
+
+
+@media (max-width:600px) {
+    .step {
+        font-size: 15px;
+    }
+
+    .dream11_info h3 {
+        font-size: 20px;
+    }
+
+    .dream11_title {
+        font-size: 13px;
+    }
+
+    .rating_title {
+        font-size: 20px;
+    }
+
+    .rating_number {
+        font-size: 49px;
+    }
+
+    .rating_image {
+        width: 67px;
+    }
+
+    .rating_graph_inner {
+        width: 95px;
+    }
+
+    .rating_graph_inner {
+        margin-top: 33px;
+    }
+
+    .download_count {
+        font-size: 30px;
+    }
+
+    .download_box {
+        padding-top: 27px;
+    }
+
+    .download_box span {
+        font-size: 19px;
+    }
+
+    .review_box h3 {
+        font-size: 18px;
+    }
+
+    .review_box {
+        margin-top: 20px;
+    }
+
+    .user_img {
+        width: 40px;
+    }
+
+    .user_name {
+        font-size: 14px;
+    }
+
+    .user_review {
+        font-size: 14px;
+    }
+
+    .rating_download_box {
+        grid-template-columns: 1.4fr 1fr;
+    }
+
+    .rating_graph_inner {
+        width: 115px;
+    }
+
+    .rating_box {
+        grid-template-columns: 1fr 1.5fr;
+    }
+
+    .header {
+        margin-bottom: 6px;
+    }
+
+    .download_button_box {
+        margin-bottom: 19px;
+    }
+
+    .rating_graph_inner img,
+    .rating_image img,
+    .user_img img {
+        width: 100%;
+    }
+}
+
+
+@media (max-width:320px) {
+    .rating_download_box {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .step {
+        font-size: 12px;
+    }
+
+    .dream11_info h3 {
+        font-size: 16px;
+    }
+
+    .dream11_title {
+        font-size: 11px;
+    }
+
+    .rating_title {
+        font-size: 12px;
+    }
+
+    .rating_number {
+        font-size: 30px;
+    }
+
+    .rating_image {
+        width: 44px;
+    }
+
+    .rating_graph_inner {
+        width: 95px;
+        margin-top: 19px;
+    }
+
+    .download_count {
+        font-size: 30px;
+    }
+
+    .download_box {
+        padding-top: 15px;
+    }
+
+    .download_box span {
+        font-size: 12px;
+    }
+
+    .download_count {
+        font-size: 19px;
+    }
+
+    .review_box h3 {
+        font-size: 12px;
+    }
+
+    .review_box {
+        margin-top: 10px;
+    }
+
+    .user_img {
+        width: 30px;
+    }
+
+    .user_name {
+        font-size: 10px;
+    }
+
+    .user_review {
+        font-size: 10px;
+    }
+
+    .rating_box {
+        grid-template-columns: 1fr 1fr;
+    }
+}
