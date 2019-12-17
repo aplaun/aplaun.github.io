@@ -107,7 +107,7 @@ body {
     content: "";
     width: 8px;
     height: 39px;
-    background: url(https://d13ir53smqqeyp.cloudfront.net/d11-static-pages/images/affiliate_seperator.png);
+    background: url(affiliate_seperator.png);
     display: inline-block;
     position: absolute;
     right: 0px;
